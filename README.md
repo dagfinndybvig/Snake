@@ -3,7 +3,7 @@ Borrowed this from tayloraliss for practice.
 He followed tutorial from "LibGDX Game Development by Example" by James Cook.
 I added accelerometer controls so it can be played on Android.
 
-The code I added (starting from ||) to the queryInput() part of the render-method of GameScene was basically:
+The code I added (starting from ||) to the queryInput() part of the render-method of GameScene was:
 
         boolean aPressed = (Gdx.input.isKeyPressed(Input.Keys.Z)) || (Gdx.input.getAccelerometerX()>2);
         boolean dPressed = (Gdx.input.isKeyPressed(Input.Keys.X)) || (Gdx.input.getAccelerometerX()<-2);
